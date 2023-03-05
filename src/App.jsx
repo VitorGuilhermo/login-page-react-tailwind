@@ -1,11 +1,12 @@
+import { Login } from './pages/Login';
 import './styles/global.css';
 
 function App() {
 
   return (
-    <h1 className='underline'>
-      Hello World!
-    </h1>
+    <div className='h-screen w-screen flex items-center justify-center'>
+      <Login />
+    </div>
   )
 }
 
